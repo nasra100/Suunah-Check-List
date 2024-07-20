@@ -5,10 +5,11 @@ import TodoFilter from "./components/TodoFilter";
 import { TodoProvider } from "./context/TodoProvider"; // Correctly import TodoProvider
 
 function App() {
+  const loggedInUser = localStorage.getItem('loggedInUser');
   return (
     <TodoProvider> {/* Use TodoProvider here */}
-      <div className="max-w-lg mx-auto mt-8"> {/* Move className to a div inside */}
-        <h1 className="text-2xl text-blue-600 font-bold text-center mb-4">Sunnah CheckList</h1>
+      <div className="max-w-lg mx-auto mt-8 background">
+        <h1 className="text-5xl text-blue-900 font-bold text-center mb-4">SUNNAH CHECKLIST</h1>
         <TodoForm />
         <TodoFilter />
         <TodoList />

@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;;
+  transition: all .3s ease-in-out;
+  
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -43,4 +55,16 @@
 
 .input{
   width: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,rgba(27, 34, 56, 0.3),rgba(20, 24, 27, 0.346)), url(./assets/b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+  /* background-color: #dfe0e0; */
 }

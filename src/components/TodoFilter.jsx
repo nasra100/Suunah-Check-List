@@ -9,7 +9,7 @@ function TodoFilter() {
     }, [dispatch]);
 
     return (
-        <div className="flex justify-center space-x-4 p-4 bg-gray-50 shadow-md rounded-lg">
+        <div className="flex justify-center space-x-4 p-4 bg-gray-50 shadow-md rounded-lg mt-1 mb-1">
             <button
                 onClick={() => setFilter('all')}
                 className={`px-4 py-2 rounded-lg font-semibold transition duration-150 ${
